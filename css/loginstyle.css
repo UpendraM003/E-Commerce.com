@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+.welcome-container{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.sign-up-container, .sign-in-container{
+    width: 300px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ff8bdc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff8bdc;
+    color: #000000;
+    cursor: pointer;
+}

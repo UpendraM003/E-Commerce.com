@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store</title>
+  <link rel="stylesheet" href="./css/loginstyle.css">
+</head>
+<body>
+  <div class="welcome-container">
+    <h2>Welcome to Online Store</h2>
+    <h3>Already an User</h3>
+    <button id="signin-btn">Sign In</button>
+    <br>
+    <h3>New User</h3>
+    <button id="signup-btn">Sign Up</button>
+  </div>
+
+  <script>
+    document.getElementById("signin-btn").addEventListener("click", function() {
+      window.location.href = "sign-in.html";
+    });
+
+    document.getElementById("signup-btn").addEventListener("click", function() {
+      window.location.href = "sign-up.html";
+    });
+  </script>
+</body>
+</html>
